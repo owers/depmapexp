@@ -1,0 +1,14 @@
+[file]
+file_path = "~/Downloads/CRISPRGeneEffect.csv"
+
+[params]
+n = 10
+important_bucket = ["LUNG"]
+
+[cell_line_buckets]
+LUNG = ["NCI-H1299", "NCI-H460", "A549"]
+BREAST = ["MCF7", "MDA-MB-231", "T47D"]
+
+[gene_buckets]
+ONCOGENES = ["KRAS", "MYC", "EGFR"]
+TUMOR_SUPPRESSORS = ["TP53", "PTEN", "RB1"]
